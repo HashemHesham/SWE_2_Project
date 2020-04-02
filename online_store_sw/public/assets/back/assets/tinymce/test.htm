@@ -1,0 +1,17 @@
+<script src="assets/tinymce/tinymce.min.js"></script>
+<script>
+tinymce.init({
+    selector: "textarea#content",
+    directionality : 'rtl',
+    language : 'ar',
+    plugins: [
+         "code,charmap,colorpicker,hr,lists,media,paste,tabfocus,textcolor,fullscreen,wordcount,link,autolink,image,imagetools"
+    ],
+    resize:false,menubar:false,indent:false,relative_urls:false,remove_script_host:false,convert_urls:false,browser_spellcheck:true,
+    fix_list_elements:true,entities:"38,amp,60,lt,62,gt",entity_encoding:"raw",keep_styles:false,
+    toolbar1:"bold,italic,strikethrough,bullist,numlist,blockquote,hr,alignleft,aligncenter,alignright",
+    toolbar2:"link,unlink,image,media,code,formatselect,underline,alignjustify",
+    toolbar3:"forecolor,pastetext,removeformat,charmap,outdent,indent,undo,redo",
+    toolbar4:"",
+ }); 
+</script>
